@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F6539B6244FE71D0071557B /* Swift5CountUp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5CountUp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6539B6244FE71D0071557B /* カウントアップ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "カウントアップ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6539B9244FE71D0071557B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F6539BB244FE71D0071557B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F6539BD244FE71D0071557B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5F6539B7244FE71D0071557B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F6539B6244FE71D0071557B /* Swift5CountUp1.app */,
+				5F6539B6244FE71D0071557B /* カウントアップ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = Swift5CountUp1;
 			productName = Swift5CountUp1;
-			productReference = 5F6539B6244FE71D0071557B /* Swift5CountUp1.app */;
+			productReference = 5F6539B6244FE71D0071557B /* カウントアップ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,9 +291,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.Swift5CountUp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "カウントアップ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,9 +308,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.Swift5CountUp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "カウントアップ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
